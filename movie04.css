@@ -1,0 +1,56 @@
+*{
+    margin: 10px;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+}
+.movie-more{
+    font-size: 18px;
+}
+.movie-more__link{
+    color: blue;
+}
+.movie-more__link:hover{
+    color:red;
+}
+.movie-item{
+    float:left;
+    margin:20px auto;
+    padding: 20px;
+    border:1px solid #ffffff;
+    width: 200px;
+    height: 400px;
+    list-style: none;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color:#000000;
+    
+
+}
+.movie-item__info{
+    padding-top: 8px;
+}
+.movie-item__info-cell{
+    padding-top:20px;
+}
+
+.movie-btn__link.movie-btn__tickets{
+    border:1px solid #000000 transparent;
+    width: 100px;
+    height: 20px;
+    background: #09A1D7;
+    color:#ffffff;
+    text-align: center;
+    margin:0 auto;
+    padding-top:0;
+}
+.rating-star{
+    margin:3px 3px 0 0;
+    width:55px;
+}
+i{
+    color:#F28A0F;
+}
